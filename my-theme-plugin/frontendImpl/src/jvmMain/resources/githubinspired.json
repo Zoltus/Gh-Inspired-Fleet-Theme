@@ -1,11 +1,1371 @@
 {
   "meta": {
-    "theme.name": "Your theme name here",
-    "theme.kind": "Light",
+    "theme.name": "Discord Inspired",
+    "theme.kind": "Dark",
     "theme.version": 8
   },
   "colors": {
+    "text.dangerous": "Red 70",
+    "text.dimmed": "Gray 80",
+    "text.disabled": "Gray 70",
+    "text.error": "White",
+    "text.primary": "Gray 120",
+    "text.secondary": "Gray 80",
+    "text.success": "Green 50",
+    "text.warning": "White",
+
+    "background.dimmed": "Black",
+    "background.disabled": "Gray 50",
+    "background.error": "Red 50",
+    "background.primary": "Gray 10",
+    "background.secondary": "Gray 30",
+    "background.warning": "Yellow 30",
+    "focusOutline": "Blue 40",
+
+    "banner.background.error": "Red 10",
+    "banner.background.warning": "Yellow 10",
+    "banner.border.error": "Red 50",
+    "banner.border.warning": "Yellow 30",
+    "border": "Gray 50",
+    "border.focused": "Blue 70",
+
+    "button.dangerous.background.default": "Red 50",
+    "button.dangerous.background.disabled": "Gray 10",
+    "button.dangerous.background.hovered": "Red 40",
+    "button.dangerous.background.pressed": "Red 30",
+    "button.dangerous.border.default": "Transparent",
+    "button.dangerous.border.disabled": "Gray 60",
+    "button.dangerous.border.hovered": "Transparent",
+    "button.dangerous.border.pressed": "Transparent",
+    "button.dangerous.focusBorder": "Red 20",
+    "button.dangerous.focusOutline": "Red 30",
+    "button.dangerous.text.default": "White",
+    "button.dangerous.text.disabled": "Gray 70",
+    "button.dangerous.text.hovered": "White",
+    "button.dangerous.text.pressed": "White",
+    "button.tile.background.default": "Gray 20",
+    "button.tile.background.disabled": "Gray 20",
+    "button.tile.background.hovered": "Gray 50",
+    "button.tile.background.pressed": "Gray 60",
+    "button.tile.border.default": "Gray 50",
+    "button.tile.border.disabled": "Gray 60",
+    "button.tile.border.hovered": "Gray 50",
+    "button.tile.border.pressed": "Transparent",
+    "button.tile.focusBorder": "Blue 20",
+    "button.tile.focusOutline": "Blue 50",
+    "button.tile.text.default": "Gray 120",
+    "button.tile.text.disabled": "Gray 70",
+    "button.tile.text.hovered": "Gray 120",
+    "button.tile.text.pressed": "Gray 120",
+    "button.tile.on.background.default": "Blue 20",
+    "button.tile.on.background.disabled": "Gray 20",
+    "button.tile.on.background.hovered": "Blue 30",
+    "button.tile.on.background.pressed": "Blue 40",
+    "button.tile.on.border.default": "Blue 20",
+    "button.tile.on.border.disabled": "Gray 60",
+    "button.tile.on.border.hovered": "Blue 20",
+    "button.tile.on.border.pressed": "Transparent",
+    "button.tile.on.focusBorder": "Blue 20",
+    "button.tile.on.focusOutline": "Blue 50",
+    "button.tile.on.text.default": "Gray 120",
+    "button.tile.on.text.disabled": "Gray 70",
+    "button.tile.on.text.hovered": "Gray 120",
+    "button.tile.on.text.pressed": "Gray 120",
+    "button.positive.background.default": "Green 60",
+    "button.positive.background.disabled": "Gray 10",
+    "button.positive.background.hovered": "Green 50",
+    "button.positive.background.pressed": "Green 40",
+    "button.positive.border.default": "Transparent",
+    "button.positive.border.disabled": "Gray 60",
+    "button.positive.border.hovered": "Transparent",
+    "button.positive.border.pressed": "Transparent",
+    "button.positive.focusBorder": "Green 20",
+    "button.positive.focusOutline": "Green 40",
+    "button.positive.text.default": "White",
+    "button.positive.text.disabled": "Gray 70",
+    "button.positive.text.hovered": "White",
+    "button.positive.text.pressed": "White",
+    "button.primary.background.default": "Blue 70",
+    "button.primary.background.disabled": "Gray 10",
+    "button.primary.background.hovered": "Blue 60",
+    "button.primary.background.pressed": "Blue 50",
+    "button.primary.border.default": "Transparent",
+    "button.primary.border.disabled": "Gray 60",
+    "button.primary.border.hovered": "Transparent",
+    "button.primary.border.pressed": "Transparent",
+    "button.primary.focusBorder": "Blue 40",
+    "button.primary.focusOutline": "Blue 50",
+    "button.primary.text.default": "White",
+    "button.primary.text.disabled": "Gray 70",
+    "button.primary.text.hovered": "White",
+    "button.primary.text.pressed": "White",
+    "button.secondary.background.default": "Gray 60",
+    "button.secondary.background.disabled": "Gray 10",
+    "button.secondary.background.hovered": "Gray 50",
+    "button.secondary.background.pressed": "Gray 40",
+    "button.secondary.border.default": "Transparent",
+    "button.secondary.border.disabled": "Gray 60",
+    "button.secondary.border.hovered": "Transparent",
+    "button.secondary.border.pressed": "Transparent",
+    "button.secondary.focusBorder": "Blue 20",
+    "button.secondary.focusOutline": "Blue 50",
+    "button.secondary.text.default": "Gray 120",
+    "button.secondary.text.disabled": "Gray 70",
+    "button.secondary.text.hovered": "Gray 120",
+    "button.secondary.text.pressed": "Gray 120",
+
+    "checkbox.focusBorder": "Blue 70",
+    "checkbox.focusOutline": "Blue 40",
+    "checkbox.off.background.default": "Gray 20",
+    "checkbox.off.background.disabled": "Gray 20",
+    "checkbox.off.background.hovered": "Gray 20",
+    "checkbox.off.background.pressed": "Gray 20",
+    "checkbox.off.border.default": "Gray 70",
+    "checkbox.off.border.disabled": "Gray 60",
+    "checkbox.off.border.hovered": "Gray 80",
+    "checkbox.off.border.pressed": "Gray 70",
+    "checkbox.icon.default": "White",
+    "checkbox.icon.disabled": "Gray 80",
+    "checkbox.text.default": "Gray 120",
+    "checkbox.text.disabled": "Gray 70",
+    "checkbox.on.background.default": "Blue 80",
+    "checkbox.on.background.disabled": "Gray 60",
+    "checkbox.on.background.hovered": "Blue 70",
+    "checkbox.on.background.pressed": "Blue 80",
+    "checkbox.on.border.default": "Transparent",
+    "checkbox.on.border.disabled": "Transparent",
+    "checkbox.on.border.hovered": "Transparent",
+    "checkbox.on.border.pressed": "Transparent",
+
+    "completion.match.background": "Transparent",
+    "completion.match.text": "Blue 110",
+
+    "dragAndDrop.background": "ffffff33",
+
+    "editor.background": "Gray 10",
+    "editor.caret.background": "Gray 120",
+    "editor.caret.border": "Gray 120",
+    "editor.currentLine.background.default": "White-10",
+    "editor.currentLine.background.focused": "ae7c1426",
+    "editor.foldedMark.background": "Gray 50",
+    "editor.foldedMark.text": "Gray 90",
+    "editor.foldIndicator.background.hovered": "Blue 10",
+    "editor.foldIndicator.icon.default": "Gray 80",
+    "editor.foldIndicator.icon.hovered": "Blue 70",
+    "editor.gitDiff.background.added": "Green 40",
+    "editor.gitDiff.background.blame": "Yellow 40",
+    "editor.gitDiff.background.conflict": "Yellow 40",
+    "editor.gitDiff.background.deleted": "Red 50",
+    "editor.gitDiff.background.modified": "Blue 80",
+    "editor.gitDiff.text.added": "Green 80",
+    "editor.gitDiff.text.conflict": "d1a354",
+    "editor.gitDiff.text.deleted": "Red 70",
+    "editor.gitDiff.text.modified": "Blue 100",
+    "editor.interline.block.background": "Gray 20",
+    "editor.interline.listItem.background.default": "Gray 20",
+    "editor.interline.listItem.background.focused": "Blue 40",
+    "editor.interline.listItem.background.hovered": "Gray 30",
+    "editor.interline.listItem.background.selected": "Gray 50",
+    "editor.interline.listItem.border.default": "Transparent",
+    "editor.interline.listItem.border.focused": "Transparent",
+    "editor.interline.listItem.border.hovered": "Transparent",
+    "editor.interline.listItem.border.selected": "Transparent",
+    "editor.interline.listItem.text.default": "Gray 120",
+    "editor.interline.listItem.text.focused": "Gray 120",
+    "editor.interline.listItem.text.hovered": "Gray 120",
+    "editor.interline.listItem.text.secondary": "Gray 80",
+    "editor.interline.listItem.text.selected": "Gray 120",
+    "editor.lineNumber.current": "Gray 110",
+    "editor.lineNumber.default": "Gray 70",
+    "editor.postline.background.error": "742f38",
+    "editor.postline.background.info": "Green 30",
+    "editor.postline.background.unused": "5b3271",
+    "editor.postline.background.warning": "605234",
+    "editor.postline.background.weakWarning": "353025",
+    "editor.renamePostline.background": "Blue 10",
+    "editor.renamePostline.border": "Blue 100",
+    "editor.renamePostline.description.text": "Gray 120",
+    "editor.renamePostline.usages.text": "Yellow 60",
+    "editor.selectableFoldedMark.background.default": "Transparent",
+    "editor.selectableFoldedMark.background.focused": "Blue 30",
+    "editor.selectableFoldedMark.border.default": "Gray 90",
+    "editor.selectableFoldedMark.border.focused": "Blue 80",
+    "editor.selectableFoldedMark.text.default": "Gray 80",
+    "editor.selectableFoldedMark.text.focused": "d1d1d180",
+    "editor.text": "Gray 120",
+    "editor.whitespaceIndicator": "Gray 80",
+
+    "gitBranchTag.local.background": "Blue 10-60",
+    "gitBranchTag.local.border": "Blue 100",
+    "gitBranchTag.local.text": "Blue 100",
+    "gitBranchTag.remote.background": "Purple 10-60",
+    "gitBranchTag.remote.border": "Purple 30",
+    "gitBranchTag.remote.text": "Purple 30",
+
+    "icon.background.blue": "Blue 80",
+    "icon.background.green": "Green 40",
+    "icon.background.orange": "Yellow 40",
+    "icon.background.red": "Red 60",
+    "icon.background.cyan": "13a4cd",
+
+    "iconButton.off.background.default": "Transparent",
+    "iconButton.off.background.disabled": "Transparent",
+    "iconButton.off.background.hovered": "Gray 50",
+    "iconButton.off.background.pressed": "Gray 60",
+    "iconButton.off.border.default": "Transparent",
+    "iconButton.off.border.disabled": "Transparent",
+    "iconButton.off.border.hovered": "Transparent",
+    "iconButton.off.border.pressed": "Transparent",
+    "iconButton.off.focusBorder": "Blue 70",
+    "iconButton.off.focusOutline": "Blue 40",
+    "iconButton.off.text.default": "Gray 120",
+    "iconButton.off.text.disabled": "Gray 70",
+    "iconButton.off.text.hovered": "Gray 120",
+    "iconButton.off.text.pressed": "Gray 120",
+    "iconButton.on.background.default": "Blue 30",
+    "iconButton.on.background.disabled": "Gray 50",
+    "iconButton.on.background.hovered": "Blue 30",
+    "iconButton.on.background.pressed": "Blue 40",
+    "iconButton.on.border.default": "Transparent",
+    "iconButton.on.border.disabled": "Transparent",
+    "iconButton.on.border.hovered": "Transparent",
+    "iconButton.on.border.pressed": "Transparent",
+    "iconButton.on.focusBorder": "Blue 70",
+    "iconButton.on.focusOutline": "Blue 40",
+    "iconButton.on.text.default": "Blue 100",
+    "iconButton.on.text.disabled": "Gray 80",
+    "iconButton.on.text.hovered": "Blue 100",
+    "iconButton.on.text.pressed": "Blue 100",
+
+    "inputField.background.default": "Gray 20",
+    "inputField.background.disabled": "Gray 50",
+    "inputField.background.error": "Gray 20",
+    "inputField.border.default": "Gray 60",
+    "inputField.border.disabled": "Gray 50",
+    "inputField.border.error": "Red 60",
+    "inputField.caret.default": "Gray 120",
+    "inputField.caret.error": "Gray 120",
+    "inputField.focusBorder.default": "Blue 70",
+    "inputField.focusBorder.error": "Red 60",
+    "inputField.focusOutline.default": "Blue 40",
+    "inputField.focusOutline.error": "Red 20",
+    "inputField.hint.default": "Transparent",
+    "inputField.hint.disabled": "Transparent",
+    "inputField.hint.error": "Transparent",
+    "inputField.hint.focused": "Transparent",
+    "inputField.hint.focusedError": "Transparent",
+    "inputField.selectionBackground.default": "Blue 40",
+    "inputField.selectionBackground.error": "Blue 40",
+    "inputField.text.default": "Gray 120",
+    "inputField.text.disabled": "Gray 80",
+    "inputField.text.error": "Gray 120",
+    "inputField.validationTooltip.background": "Red 60",
+    "inputField.validationTooltip.text": "White",
+
+    "link.focusOutline": "Blue 70",
+    "link.text.default": "Blue 100",
+    "link.text.disabled": "Transparent",
+    "link.underline": "Blue 100",
+
+    "listItem.background.default": "Gray 10",
+    "listItem.background.focused": "Blue 40",
+    "listItem.background.hovered": "Gray 30",
+    "listItem.background.selected": "Gray 50",
+    "listItem.background.dnd": "Blue 70",
+    "listItem.border.default": "Transparent",
+    "listItem.border.focused": "Transparent",
+    "listItem.border.hovered": "Transparent",
+    "listItem.border.selected": "Transparent",
+    "listItem.focusBorder": "Blue 70",
+    "listItem.text.default": "Gray 120",
+    "listItem.text.focused": "Gray 120",
+    "listItem.text.hovered": "Gray 120",
+    "listItem.text.secondary": "Gray 80",
+    "listItem.text.selected": "Gray 120",
+
+    "mainToolbar.background": "Gray 20",
+
+    "smartMode.enabled.fill": "Blue 90",
+    "smartMode.loader.border": "Gray 70",
+    "smartMode.error.fill": "Red 70",
+
+    "notification.background.default": "Gray 20",
+    "notification.background.unread": "Gray 50",
+    "notification.separator": "Gray 50",
+    "notification.text": "Gray 120",
+    "notification.timestamp": "Gray 120",
+
+    "parameterInfo.match.text": "Blue 110",
+
+    "pillButton.background.default": "Gray 20",
+    "pillButton.background.disabled": "Gray 20",
+    "pillButton.background.focused": "Gray 20",
+    "pillButton.background.hovered": "Gray 50",
+    "pillButton.background.pressed": "Gray 40",
+    "pillButton.border.default": "Gray 50",
+    "pillButton.border.disabled": "Gray 50",
+    "pillButton.border.focused": "Blue 80",
+    "pillButton.border.hovered": "Gray 50",
+    "pillButton.border.pressed": "Gray 50",
+    "pillButton.focusBorder": "Blue 80",
+    "pillButton.focusOutline": "Blue 40",
+    "pillButton.text.default": "Gray 90",
+    "pillButton.text.disabled": "Gray 90",
+    "pillButton.text.focused": "Gray 90",
+    "pillButton.text.hovered": "Gray 90",
+    "pillButton.text.pressed": "Gray 90",
+
+    "popup.background": "Gray 20",
+    "popup.border": "Gray 50",
+    "popup.editor.background": "Gray 20",
+    "popup.listItem.background.default": "Gray 20",
+    "popup.listItem.background.focused": "Blue 40",
+    "popup.listItem.background.hovered": "Gray 30",
+    "popup.listItem.background.selected": "Gray 50",
+    "popup.listItem.border.default": "Transparent",
+    "popup.listItem.border.focused": "Transparent",
+    "popup.listItem.border.hovered": "Transparent",
+    "popup.listItem.border.selected": "Transparent",
+    "popup.listItem.text.default": "Gray 120",
+    "popup.listItem.text.focused": "Gray 120",
+    "popup.listItem.text.hovered": "Gray 120",
+    "popup.listItem.text.secondary": "Gray 80",
+    "popup.listItem.text.selected": "Gray 120",
+    "popup.tab.background.default": "Transparent",
+    "popup.tab.background.hovered": "Gray 40",
+    "popup.tab.background.selected": "Transparent",
+    "popup.tab.border": "Transparent",
+    "popup.tab.closeIcon.default": "Transparent",
+    "popup.tab.closeIcon.hovered": "Transparent",
+    "popup.tab.indicator": "White",
+    "popup.tab.text": "Gray 120",
+    "popup.tabPanel.background": "Gray 20",
+    "popup.tabPanel.border": "Gray 50",
+    "popup.text": "Gray 120",
+
+    "problemsWidget.checkmark.background": "Green 20",
+    "problemsWidget.checkmark.foreground": "Green 70",
+    "problemsWidget.status.expanded.background.error": "Red 50",
+    "problemsWidget.status.expanded.background.warning": "Yellow 40",
+    "problemsWidget.status.expanded.background.weakWarning": "Yellow 10",
+    "problemsWidget.status.expanded.border.error": "Red 50",
+    "problemsWidget.status.expanded.border.warning": "Yellow 40",
+    "problemsWidget.status.expanded.border.weakWarning": "Yellow 30",
+    "problemsWidget.status.expanded.lineNumber.error": "White",
+    "problemsWidget.status.expanded.lineNumber.warning": "White",
+    "problemsWidget.status.expanded.lineNumber.weakWarning": "Gray 120",
+
+    "progressBar.determinate.background": "Gray 60",
+    "progressBar.determinate.foreground": "Blue 70",
+    "progressBar.indeterminate.foreground": "Blue 70",
+    "progressBar.indeterminate.foregroundAccent": "Blue 110",
+
+    "remote.userColor.background.eight": "6d4dff",
+    "remote.userColor.background.five": "Green 70",
+    "remote.userColor.background.four": "74a827",
+    "remote.userColor.background.nine": "a842eb",
+    "remote.userColor.background.one": "db3552",
+    "remote.userColor.background.seven": "3d5bfc",
+    "remote.userColor.background.six": "Blue 80",
+    "remote.userColor.background.ten": "bd40b4",
+    "remote.userColor.background.three": "Yellow 60",
+    "remote.userColor.background.two": "e55f2e",
+
+    "remoteWorkspaceStatusLabel.background.docker": "Blue 30",
+    "remoteWorkspaceStatusLabel.background.space": "5c338f",
+    "remoteWorkspaceStatusLabel.background.ssh": "Green 20",
+    "remoteWorkspaceStatusLabel.background.wsl": "Yellow 20",
+    "remoteWorkspaceStatusLabel.text.docker": "Gray 120",
+    "remoteWorkspaceStatusLabel.text.space": "Gray 120",
+    "remoteWorkspaceStatusLabel.text.ssh": "Gray 120",
+    "remoteWorkspaceStatusLabel.text.wsl": "Gray 120",
+
+    "remoteHostStatusLabel.background.failed": "Red 60",
+    "remoteHostStatusLabel.background.disconnected": "Gray 80",
+    "remoteHostStatusLabel.background.connecting": "Gray 120",
+    "remoteHostStatusLabel.background.connected": "Green 70",
+
+    "scrollbar.thumb.default": "ffffff26",
+    "scrollbar.thumb.hovered": "ffffff33",
+    "scrollbar.thumb.pressed": "ffffff4d",
+    "scrollbar.track.default": "Transparent",
+    "scrollbar.track.hovered": "White-10",
+    "scrollbar.track.pressed": "White-10",
+
+    "search.match.background": "Yellow 30",
+    "search.match.text": "Gray 120",
+    "search.counter.background": "ffffff26",
+
+    "separator.default": "Gray 50",
+    "separator.hovered": "Blue 70",
+
+    "settings.modified.indicator": "Yellow 40",
+
+    "shadow.background.large": "000000d9",
+    "shadow.background.medium": "000000d9",
+    "shadow.background.small": "00000040",
+    "shadow.border": "Black",
+
+    "shortcutToast.background": "efefefcc",
+    "shortcutToast.border": "Transparent",
+    "shortcutToast.text": "Black",
+
+    "splitButton.background.default": "Gray 60",
+    "splitButton.background.disabled": "Gray 10",
+    "splitButton.background.hovered": "Gray 50",
+    "splitButton.background.pressed": "Gray 40",
+    "splitButton.border.default": "Transparent",
+    "splitButton.border.disabled": "Gray 60",
+    "splitButton.border.hovered": "Transparent",
+    "splitButton.border.pressed": "Transparent",
+    "splitButton.focusBorder": "Blue 20",
+    "splitButton.focusOutline": "Blue 50",
+    "splitButton.separator": "Gray 30",
+    "splitButton.text.default": "Gray 120",
+    "splitButton.text.disabled": "Gray 70",
+    "splitButton.text.hovered": "Gray 120",
+    "splitButton.text.pressed": "Gray 120",
+
+    "statusBar.background": "Gray 10",
+
+    "survey.button.background.default": "Gray 60",
+    "survey.button.background.hovered": "Blue 70",
+    "survey.button.border.default": "Transparent",
+    "survey.button.border.hovered": "Transparent",
+    "survey.button.focusBorder": "Blue 80",
+    "survey.button.focusOutline": "Blue 40",
+    "survey.button.text.default": "Gray 120",
+    "survey.button.text.hovered": "White",
+
+    "switch.off.thumb": "White",
+    "switch.off.track.default": "Gray 60",
+    "switch.off.track.hovered": "Gray 60",
+    "switch.on.thumb": "White",
+    "switch.on.track.default": "Blue 70",
+    "switch.on.track.hovered": "Blue 70",
+
+    "tab.background.default": "Gray 20",
+    "tab.background.hovered": "Gray 40",
+    "tab.background.selected": "Gray 10",
+    "tab.border": "Transparent",
+    "tab.closeIcon.default": "Transparent",
+    "tab.closeIcon.hovered": "Transparent",
+    "tab.indicator": "White",
+    "tab.text": "Gray 120",
+
+    "tabPanel.background": "Gray 20",
+    "tabPanel.border": "Transparent",
+
+    "terminal.ansiColors.background.ansiBlack": "Gray 10",
+    "terminal.ansiColors.background.ansiBlue": "405c80",
+    "terminal.ansiColors.background.ansiBrightBlack": "424242",
+    "terminal.ansiColors.background.ansiBrightBlue": "314966",
+    "terminal.ansiColors.background.ansiBrightCyan": "2f5f66",
+    "terminal.ansiColors.background.ansiBrightGreen": "2d6654",
+    "terminal.ansiColors.background.ansiBrightMagenta": "4e3166",
+    "terminal.ansiColors.background.ansiBrightRed": "66333a",
+    "terminal.ansiColors.background.ansiBrightWhite": "Gray 10",
+    "terminal.ansiColors.background.ansiBrightYellow": "665234",
+    "terminal.ansiColors.background.ansiCyan": "477880",
+    "terminal.ansiColors.background.ansiGreen": "437a6a",
+    "terminal.ansiColors.background.ansiMagenta": "6b5280",
+    "terminal.ansiColors.background.ansiRed": "804a52",
+    "terminal.ansiColors.background.ansiWhite": "Gray 90",
+    "terminal.ansiColors.background.ansiYellow": "80653e",
+    "terminal.ansiColors.foreground.ansiBlack": "Gray 120",
+    "terminal.ansiColors.foreground.ansiBlue": "1d6bcc",
+    "terminal.ansiColors.foreground.ansiBrightBlack": "595959",
+    "terminal.ansiColors.foreground.ansiBrightBlue": "0067e6",
+    "terminal.ansiColors.foreground.ansiBrightCyan": "00bad6",
+    "terminal.ansiColors.foreground.ansiBrightGreen": "009e6f",
+    "terminal.ansiColors.foreground.ansiBrightMagenta": "eb4dde",
+    "terminal.ansiColors.foreground.ansiBrightRed": "c7001b",
+    "terminal.ansiColors.foreground.ansiBrightWhite": "Gray 10",
+    "terminal.ansiColors.foreground.ansiBrightYellow": "e09119",
+    "terminal.ansiColors.foreground.ansiCyan": "2ccce6",
+    "terminal.ansiColors.foreground.ansiGreen": "Red_Light",
+    "terminal.ansiColors.foreground.ansiMagenta": "eb83e2",
+    "terminal.ansiColors.foreground.ansiRed": "c73649",
+    "terminal.ansiColors.foreground.ansiWhite": "Gray 20",
+    "terminal.ansiColors.foreground.ansiYellow": "fad075",
+
+    "toggleButton.off.background.default": "Gray 60",
+    "toggleButton.off.background.disabled": "Gray 10",
+    "toggleButton.off.background.hovered": "Gray 50",
+    "toggleButton.off.background.pressed": "Gray 40",
+    "toggleButton.off.border.default": "Transparent",
+    "toggleButton.off.border.disabled": "Transparent",
+    "toggleButton.off.border.hovered": "Transparent",
+    "toggleButton.off.border.pressed": "Transparent",
+    "toggleButton.off.focusBorder": "Blue 80",
+    "toggleButton.off.focusOutline": "Blue 40",
+    "toggleButton.off.text.default": "Gray 120",
+    "toggleButton.off.text.disabled": "Gray 70",
+    "toggleButton.off.text.hovered": "Gray 120",
+    "toggleButton.off.text.pressed": "Gray 120",
+    "toggleButton.on.background.default": "Blue 70",
+    "toggleButton.on.background.disabled": "Gray 40",
+    "toggleButton.on.background.hovered": "Blue 60",
+    "toggleButton.on.background.pressed": "Blue 70",
+    "toggleButton.on.border.default": "Transparent",
+    "toggleButton.on.border.disabled": "Transparent",
+    "toggleButton.on.border.hovered": "Transparent",
+    "toggleButton.on.border.pressed": "Transparent",
+    "toggleButton.on.focusBorder": "Blue 40",
+    "toggleButton.on.focusOutline": "Blue 50",
+    "toggleButton.on.text.default": "White",
+    "toggleButton.on.text.disabled": "Gray 70",
+    "toggleButton.on.text.hovered": "White",
+    "toggleButton.on.text.pressed": "White",
+
+    "tool.background": "Gray 10",
+
+    "tooltip.background": "Gray 40",
+    "tooltip.border": "Gray 60",
+    "tooltip.compactFolder.metadata.text": "Gray 80",
+    "tooltip.compactFolder.separator": "d6d5cb40",
+    "tooltip.text": "Gray 120",
+
+    "tree.focusBorder": "Blue 70",
+    "tree.compactFolder.selector.default": "d1d1d166",
+    "tree.compactFolder.selector.focused": "Gray 120",
+    "tree.compactFolder.separator": "d1d1d14d",
+
+    "ai.banner.border": "Violet 40",
+    "ai.attachment.background.default": "Violet 20",
+    "ai.button.default.background.default": "Violet 50",
+    "ai.button.default.background.disabled": "Gray 10",
+    "ai.button.default.background.hovered": "Violet 40",
+    "ai.button.default.background.pressed": "Violet 30",
+    "ai.button.default.border.default": "Violet 50",
+    "ai.button.default.border.disabled": "Gray 60",
+    "ai.button.default.border.hovered": "Violet 40",
+    "ai.button.default.border.pressed": "Violet 30",
+    "ai.button.default.focusBorder": "Violet 10",
+    "ai.button.default.focusOutline": "Violet 30",
+    "ai.button.default.text.default": "White",
+    "ai.button.default.text.disabled": "Gray 70",
+    "ai.button.default.text.hovered": "White",
+    "ai.button.default.text.pressed": "White",
+    "ai.button.recipe.background.default": "Gray 10",
+    "ai.button.recipe.background.disabled": "Gray 10",
+    "ai.button.recipe.background.hovered": "Violet 40",
+    "ai.button.recipe.background.pressed": "Violet 30",
+    "ai.button.recipe.border.default": "Violet 60",
+    "ai.button.recipe.border.disabled": "Gray 60",
+    "ai.button.recipe.border.hovered": "Transparent",
+    "ai.button.recipe.border.pressed": "Transparent",
+    "ai.button.recipe.focusBorder": "Violet 60",
+    "ai.button.recipe.focusOutline": "Violet 20",
+    "ai.button.recipe.text.default": "Gray 120",
+    "ai.button.recipe.text.disabled": "Gray 70",
+    "ai.button.recipe.text.hovered": "White",
+    "ai.button.recipe.text.pressed": "White",
+    "ai.error.border": "Red 50",
+    "ai.warning.border": "Yellow 30",
+    "ai.error.fill": "Red 10",
+    "ai.warning.fill": "Yellow 10",
+    "ai.icon.background": "Violet 70",
+    "ai.icon.background.secondary": "Violet 10",
+    "ai.icon.text": "Violet 70",
+    "ai.inputField.background.default": "Gray 20",
+    "ai.inputField.background.disabled": "Gray 50",
+    "ai.inputField.border.default": "Gray 60",
+    "ai.inputField.border.disabled": "Gray 50",
+    "ai.inputField.caret.default": "Gray 120",
+    "ai.inputField.focusBorder.default": "Violet 70",
+    "ai.inputField.focusOutline.default": "Violet 40",
+    "ai.inputField.selectionBackground.default": "Blue 40",
+    "ai.inputField.text.default": "Gray 120",
+    "ai.inputField.text.disabled": "Gray 80",
+    "ai.inputField.validationTooltip.background": "Red 60",
+    "ai.inputField.validationTooltip.text": "White",
+    "ai.inputField.snippet.border": "Gray 50",
+    "ai.snippet.border": "Transparent",
+    "ai.snippet.editor.background": "Gray 30",
+    "ai.snippet.header.background": "Gray 50",
+    "ai.user.icon.background": "Blue 70",
+    "ai.user.icon.background.secondary": "Blue 20",
+    "ai.user.icon.text": "Blue 100"
+  },
+  "textAttributes": {
+    "editor.text.scheme": {
+      "foregroundColor": "Gray 120"
+    },
+    "editor.text.composable": {
+      "textDecoration": {
+        "color": "Gray 120"
+      }
+    },
+    "editor.selection": {
+      "backgroundColor": "Gray 60"
+    },
+    "editor.selection.focused": {
+      "backgroundColor": "#1B4A87"
+    },
+    "editor.search.results": {
+      "backgroundColor": "Yellow 30",
+      "statusColor": "#D49550"
+    },
+    "editor.rename.entries": {
+      "backgroundColor": "Green 30"
+    },
+    "editor.rename.current": {
+      "border": {
+        "color": "Blue 80"
+      }
+    },
+    "editor.brace.match": {
+      "backgroundColor": "#2A524F"
+    },
+    "comment": {
+      "foregroundColor": "Gray 90"
+    },
+    "comment.doc": {
+      "foregroundColor": "Gray 90"
+    },
+    "comment.doc.tag": {
+      "foregroundColor": "Red_Light"
+    },
+    "comment.doc.value": {
+      "foregroundColor": "Gray 120"
+    },
+    "comment.todo": {
+      "foregroundColor": "YellowBright_10"
+    },
+    "link": {},
+    "link.always.visible": {
+      "textDecoration": {}
+    },
+    "link.hovered": {
+      "foregroundColor": "Blue 100",
+      "textDecoration": {
+        "color": "Blue 100"
+      }
+    },
+
+    "error.hovered": {
+      "backgroundColor": "Red 20"
+    },
+    "keyword": {
+      "foregroundColor": "Red_Light"
+    },
+    "keyword.typeModifier": {
+      "foregroundColor": "Red_Light"
+    },
+    "metadata": {
+      "foregroundColor": "Lime"
+    },
+    "number": {
+      "foregroundColor": "Pink"
+    },
+    "boolean": {
+      "foregroundColor": "Red_Light"
+    },
+    "string": {
+      "foregroundColor": "Light_Blue"
+    },
+    "string.binary": {
+      "foregroundColor": "Lime"
+    },
+    "string.escape": {
+      "foregroundColor": "Red_Light"
+    },
+    "string.escape.unicode": {
+      "foregroundColor": "Pink"
+    },
+    "string.escape.alternative": {
+      "foregroundColor": "Lime_Light"
+    },
+    "string.formatItem": {
+      "foregroundColor": "Pink"
+    },
+    "string.regexp": {
+      "foregroundColor": "Red_Light"
+    },
+    "identifier": {
+      "foregroundColor": "Gray 120"
+    },
+    "identifier.this": {
+      "foregroundColor": "Coral"
+    },
+    "identifier.this.mutable": {
+      "foregroundColor": "#CC7C8A",
+      "textDecoration": {
+        "color": "#CC7C8A"
+      }
+    },
+    "identifier.underCaret": {
+      "backgroundColor": "White-10",
+      "statusColor": "#27706C"
+    },
+    "identifier.constant": {
+      "foregroundColor": "Lime_Light"
+    },
+    "identifier.constant.predefined": {
+      "foregroundColor": "Red_Light"
+    },
+    "identifier.variable": {
+      "foregroundColor": "Gray 120"
+    },
+    "identifier.variable.mutable": {
+      "textDecoration": {
+        "color": "Gray 70"
+      }
+    },
+    "identifier.parameter": {
+      "foregroundColor": "Gray 120"
+    },
+    "identifier.parameter.js": {
+      "foregroundColor": "Lime"
+    },
+    "identifier.function.declaration": {
+      "foregroundColor": "#EFEFEF",
+      "fontWeight": "SEMI_BOLD"
+    },
+    "identifier.function.declaration.js": {
+      "foregroundColor": "Pink",
+      "fontWeight": "SEMI_BOLD"
+    },
+    "identifier.function.call": {
+      "foregroundColor": "Pink"
+    },
+    "identifier.function.call.package": {
+      "foregroundColor": "Pink"
+    },
+    "identifier.function.call.composable": {
+      "foregroundColor": "Lime"
+    },
+    "identifier.method.static": {
+      "foregroundColor": "Pink",
+      "fontStyle": "ITALIC"
+    },
+    "identifier.type": {
+      "foregroundColor": "Blue"
+    },
+    "identifier.field": {
+      "foregroundColor": "Lime_Light"
+    },
+    "identifier.field.static": {
+      "foregroundColor": "Lime_Light",
+      "fontStyle": "ITALIC"
+    },
+    "identifier.interface": {
+      "foregroundColor": "Blue"
+    },
+    "identifier.type.class": {
+      "foregroundColor": "Blue"
+    },
+    "identifier.type.enum": {
+      "foregroundColor": "Blue"
+    },
+    "identifier.type.struct": {
+      "foregroundColor": "Blue"
+    },
+    "identifier.type.valueType": {
+      "foregroundColor": "Blue Light"
+    },
+    "identifier.typeParameter": {
+      "foregroundColor": "Blue Light"
+    },
+    "identifier.namedArgument": {
+      "foregroundColor": "Blue Light"
+    },
+    "identifier.other": {
+      "foregroundColor": "Blue"
+    },
+
+    "attributeName.html": {
+      "foregroundColor": "Lime_Light"
+    },
+
+    "attributeValue.html": {
+      "foregroundColor": "Light_Blue"
+    },
+
+    "entityReference.html": {
+      "foregroundColor": "Orange"
+    },
+
+    "tag.html": {
+      "foregroundColor": "Gray 90"
+    },
+
+    "tagName.html": {
+      "foregroundColor": "Blue"
+    },
+    "tagName.custom.html": {
+      "foregroundColor": "Orange"
+    },
+
+    "attributeName.css": {
+      "foregroundColor": "Lime_Light"
+    },
+
+    "hex.css": {
+      "foregroundColor": "Pink"
+    },
+
+    "identifier.css": {
+      "foregroundColor": "Lime_Light"
+    },
+    "identifier.function.css": {
+      "foregroundColor": "Lime_Light"
+    },
+    "identifier.variable.css": {
+      "foregroundColor": "Blue"
+    },
+
+    "interpolation.css": {
+      "foregroundColor": "Gray 120"
+    },
+
+    "identifier.variable.php": {
+      "foregroundColor": "Blue Light"
+    },
+
+    "property.php": {
+      "foregroundColor": "Lime_Light"
+    },
+    "property.static.php": {
+      "foregroundColor": "Lime_Light",
+      "fontStyle": "ITALIC"
+    },
+
+    "generic.php": {
+      "foregroundColor": "Pink"
+    },
+
+    "jsCodeDelimiter.css": {
+      "foregroundColor": "Light_Blue"
+    },
+
+    "jsCodeInjection.css": {
+      "foregroundColor": "Gray 120"
+    },
+
+    "key.json": {
+      "foregroundColor": "Lime_Light"
+    },
+
+    "keyword.css": {
+      "foregroundColor": "Lime"
+    },
+    "keyword.extend.css": {
+      "foregroundColor": "Lime"
+    },
+    "keyword.global.css": {
+      "foregroundColor": "Lime"
+    },
+    "keyword.important.css": {
+      "foregroundColor": "Lime"
+    },
+
+    "mixin.css": {
+      "foregroundColor": "Lime_Light"
+    },
+
+    "number.css": {
+      "foregroundColor": "Pink"
+    },
+    "number.unit.css": {
+      "foregroundColor": "Pink"
+    },
+
+    "propertyName.css": {
+      "foregroundColor": "Red_Light"
+    },
+
+    "propertyValue.css": {
+      "foregroundColor": "Light_Blue"
+    },
+
+    "punctuation.css": {
+      "foregroundColor": "Gray 120"
+    },
+
+    "selector.css": {
+      "foregroundColor": "Lime_Light"
+    },
+    "selector.id.css": {
+      "foregroundColor": "Lime_Light"
+    },
+    "selector.class.css": {
+      "foregroundColor": "Lime_Light"
+    },
+    "selector.pseudo.css": {
+      "foregroundColor": "Lime_Light"
+    },
+    "selector.tag.css": {
+      "foregroundColor": "Lime_Light"
+    },
+
+    "string.css": {
+      "foregroundColor": "Light_Blue"
+    },
+
+    "url.css": {
+      "foregroundColor": "Blue Light",
+      "textDecoration": {
+        "color": "#546267"
+      }
+    },
+
+    "attribute.cpp": {
+      "foregroundColor": "Coral"
+    },
+
+    "markup.heading": {
+      "foregroundColor": "Red_Light",
+      "fontWeight": "BOLD"
+    },
+    "markup.bold": {
+      "fontWeight": "BOLD"
+    },
+    "markup.italic": {
+      "fontStyle": "ITALIC"
+    },
+    "markup.code.block": {
+      "foregroundColor": "#EB83E2"
+    },
+    "markup.href": {
+      "foregroundColor": "Light_Blue",
+      "fontStyle": "ITALIC",
+      "textDecoration": {}
+    },
+    "punctuation": {
+      "foregroundColor": "Gray 120"
+    },
+    "punctuation.operator": {
+      "foregroundColor": "Gray 120"
+    },
+    "snippet": {
+      "border": {
+        "color": "Gray 90"
+      }
+    },
+    "snippet.selected": {
+      "border": {
+        "color": "Blue 80"
+      }
+    },
+
+    "debug.currentFrame": {
+      "backgroundColor": "#074747"
+    },
+
+    "diff.added": {
+      "backgroundColor": "#122923"
+    },
+    "diff.added.word": {
+      "backgroundColor": "#193B32"
+    },
+    "diff.added.withBorder": {
+      "backgroundColor": "#122923",
+      "border": {
+        "color": "Green 20"
+      }
+    },
+    "diff.added.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "Green 20"
+      }
+    },
+    "diff.added.empty": {
+      "backgroundColor": "Green 30"
+    },
+    "diff.deleted": {
+      "backgroundColor": "#331B20"
+    },
+    "diff.deleted.word": {
+      "backgroundColor": "#4D2A31"
+    },
+    "diff.deleted.withBorder": {
+      "backgroundColor": "#331B20",
+      "border": {
+        "color": "#572B34"
+      }
+    },
+    "diff.deleted.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "#572B34"
+      }
+    },
+    "diff.deleted.empty": {
+      "backgroundColor": "#B24052"
+    },
+    "diff.modified": {
+      "backgroundColor": "#182538"
+    },
+    "diff.modified.word": {
+      "backgroundColor": "#1F3657"
+    },
+    "diff.modified.withBorder": {
+      "backgroundColor": "#182538",
+      "border": {
+        "color": "Blue 40"
+      }
+    },
+    "diff.modified.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "Blue 40"
+      }
+    },
+    "diff.conflict.withBorder": {
+      "backgroundColor": "#302518",
+      "border": {
+        "color": "Yellow 20"
+      }
+    },
+    "diff.conflict.resolved": {
+      "backgroundColor": "Transparent",
+      "border": {
+        "color": "Yellow 20"
+      }
+    },
+
+    "refactoring.modified.code": {
+      "backgroundColor": "Green 30"
+    },
+
+    "problem.error": {
+      "textDecoration": {
+        "color": "#FF5269",
+        "thickness": 2.0
+      }
+    },
+    "problem.error.badCharacter": {
+      "textDecoration": {
+        "color": "#FF5269",
+        "thickness": 2.0
+      }
+    },
+    "problem.warning": {
+      "textDecoration": {
+        "color": "#FACB66",
+        "thickness": 2.0
+      }
+    },
+    "problem.warning.weak": {
+      "textDecoration": {
+        "color": "#695937",
+        "thickness": 2.0
+      }
+    },
+    "problem.deprecated": {
+      "textDecoration": {
+        "color": "Gray 120",
+        "type": "LINE_THROUGH"
+      }
+    },
+    "problem.info": {
+      "textDecoration": {
+        "color": "#A366C4"
+      }
+    },
+    "problem.unknown": {},
+    "problem.unused": {
+      "foregroundColor": "Gray 80"
+    },
+    "transparent": {},
+
+    "comment.buildConstraint.go": {
+      "foregroundColor": "Gray 120"
+    },
+
+    "identifier.methodReceiver.go": {
+      "foregroundColor": "Gray 120"
+    },
+    "identifier.package.go": {
+      "foregroundColor": "Lime"
+    },
+    "identifier.typeDeclaration.go": {
+      "foregroundColor": "Gray 120"
+    },
+    "identifier.typeReference.go": {
+      "foregroundColor": "Blue"
+    },
+    "identifier.variable.shadowing.go": {
+      "foregroundColor": "Orange"
+    },
+
+    "metadata.structTag.arbitraryText.go": {
+      "foregroundColor": "Gray 90"
+    },
+    "metadata.structTag.key.go": {
+      "foregroundColor": "Gray 120"
+    },
+    "metadata.structTag.value.go": {
+      "foregroundColor": "Light_Blue"
+    },
+
+    "identifier.anchor.yaml": {
+      "foregroundColor": "Lime"
+    },
+    "identifier.alias.yaml": {
+      "foregroundColor": "Orange"
+    },
+
+    "punctuation.operator.merge.yaml": {
+      "foregroundColor": "Pink"
+    },
+
+    "schema.yaml": {
+      "foregroundColor": "Coral"
+    },
+
+    "key.yaml": {
+      "foregroundColor": "Red_Light"
+    },
+
+    "value.yaml": {
+      "foregroundColor": "Lime_Light"
+    },
+
+    "ai.generated": {
+      "backgroundColor": "#242142"
+    },
+
+    "identifier.dependency.scope.amper": {
+      "foregroundColor": "Orange"
+    },
+    "identifier.dependency.annotator.amper": {
+      "foregroundColor": "Blue"
+    },
+    "identifier.dependency.add.amper": {
+      "foregroundColor": "Lime"
+    },
+
+    "editor.indentGuide": {
+      "foregroundColor": "Gray 50",
+      "textDecoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indentGuide.current": {
+      "foregroundColor": "Gray 70",
+      "textDecoration": {
+        "style": "DASHED"
+      }
+    },
+    "editor.indentGuide.declaration": {
+      "foregroundColor": "Gray 40"
+    },
+    "editor.indentGuide.declaration.current": {
+      "foregroundColor": "Gray 70"
+    }
   },
   "palette": {
+    "White": "ffffff",
+    "White-10": "ffffff1a",
+    "Gray 120": "d1d1d1",
+    "Gray 110": "c2c2c2",
+    "Gray 100": "a0a0a0",
+    "Gray 90": "898989",
+    "Gray 80": "767676",
+    "Gray 70": "778491",
+    "Gray 60": "484848",
+    "Gray 50": "383838",
+    "Gray 40": "333333",
+    "Gray 30": "2d2d2d",
+    "Gray 20": "1C2128",
+    "Gray 10": "22272E",
+    "Black": "000000",
+    "Blue 110": "6daaf7",
+    "Blue 100": "478BE6",
+    "Blue 90": "3691f9",
+    "Blue 80": "1a85f6",
+    "Blue 70": "0273eb",
+    "Blue 60": "0c6ddd",
+    "Blue 50": "195eb5",
+    "Blue 40": "194176",
+    "Blue 30": "163764",
+    "Blue 20": "132c4f",
+    "Blue 10-60": "0b1b3299",
+    "Blue 10": "0b1b32",
+    "Blue": "87c3ff",
+    "Red 80": "ec7388",
+    "Red 70": "ea4b67",
+    "Red 60": "d93953",
+    "Red 50": "ce364d",
+    "Red 40": "c03248",
+    "Red 30": "a72a3f",
+    "Red 20": "761b2d",
+    "Red 10": "390813",
+    "Green 80": "4ca988",
+    "Green 70": "3ea17f",
+    "Green 60": "028764",
+    "Green 50": "07805f",
+    "Green 40": "13664e",
+    "Green 30": "134939",
+    "Green 20": "0e3127",
+    "Green 10": "081f19",
+    "Yellow 60": "f8ab17",
+    "Yellow 50": "e1971b",
+    "Yellow 40": "b5791f",
+    "Yellow 30": "7c511a",
+    "Yellow 20": "5a3a14",
+    "Yellow 10": "281806",
+    "Purple 30": "c07bf3",
+    "Purple 20": "b35def",
+    "Purple 10-60": "2b0b4099",
+    "Purple 10": "2b0b40",
+    "Blue Light": "add1de",
+    "Coral": "cc7c8a",
+    "Red_Light": "f47067",
+    "Cyan Dark": "779e9e",
+    "Lime": "a8cc7c",
+    "Orange": "e09b70",
+    "Light_Blue": "96d0ff",
+    "Lime_Light": "8ddb8c",
+    "Violet 70": "958cf7",
+    "Violet 60": "6d60f4",
+    "Violet 50": "5a4ce5",
+    "Violet 40": "4d40d8",
+    "Violet 30": "473bc4",
+    "Violet 20": "3a3098",
+    "Violet 10": "282360",
+    "Pink": "dcbdfb",
+    "Transparent": "ffffff00",
+    "Neutral_160": "f5f5f6",
+    "Neutral_150": "eeeff0",
+    "Neutral_140": "e0e1e4",
+    "Neutral_130": "c3c5c9",
+    "Neutral_120": "9ea3a8",
+    "Neutral_110": "898e94",
+    "Neutral_100": "7a7f86",
+    "Neutral_90": "6e747b",
+    "Neutral_80": "646b71",
+    "Neutral_70": "5d636b",
+    "Neutral_60": "4c5157",
+    "Neutral_50": "3e4147",
+    "Neutral_40": "323438",
+    "Neutral_30": "252629",
+    "Neutral_20": "18191b",
+    "Neutral_10": "090909",
+    "Blue_160": "f2f5fd",
+    "Blue_150": "e9effc",
+    "Blue_140": "d6e3f9",
+    "Blue_130": "a8c6f4",
+    "Blue_120": "71a3ef",
+    "Blue_110": "4b8dec",
+    "Blue_100": "2a7deb",
+    "Blue_90": "0870e4",
+    "Blue_80": "1868cb",
+    "Blue_70": "1d61ba",
+    "Blue_60": "225090",
+    "Blue_50": "224271",
+    "Blue_40": "1e3455",
+    "Blue_30": "18263c",
+    "Blue_20": "111926",
+    "Blue_10": "06090f",
+    "Green_160": "f0f7f1",
+    "Green_150": "e6f2ea",
+    "Green_140": "d2e7db",
+    "Green_130": "a3ceb8",
+    "Green_120": "69b090",
+    "Green_110": "409d78",
+    "Green_100": "169068",
+    "Green_90": "14835e",
+    "Green_80": "1e7857",
+    "Green_70": "216f52",
+    "Green_60": "255a44",
+    "Green_50": "234939",
+    "Green_40": "1f392d",
+    "Green_30": "182921",
+    "Green_20": "111b16",
+    "Green_10": "060a08",
+    "Red_160": "fff3f3",
+    "Red_150": "ffe9ea",
+    "Red_140": "ffd8da",
+    "Red_130": "ffb0b5",
+    "Red_120": "f87c88",
+    "Red_110": "ec5d6f",
+    "Red_100": "e1465e",
+    "Red_90": "d73251",
+    "Red_80": "c72c49",
+    "Red_70": "b82d46",
+    "Red_60": "922c3b",
+    "Red_50": "742831",
+    "Red_40": "592228",
+    "Red_30": "401a1e",
+    "Red_20": "291214",
+    "Red_10": "100607",
+    "Yellow_160": "fff4e9",
+    "Yellow_150": "fceddc",
+    "Yellow_140": "f5dec2",
+    "Yellow_130": "e5bf8c",
+    "Yellow_120": "cd984d",
+    "Yellow_110": "bd8128",
+    "Yellow_100": "b07203",
+    "Yellow_90": "9f680c",
+    "Yellow_80": "916012",
+    "Yellow_70": "865a15",
+    "Yellow_60": "6c4b18",
+    "Yellow_50": "573d18",
+    "Yellow_40": "433016",
+    "Yellow_30": "302412",
+    "Yellow_20": "20180c",
+    "Yellow_10": "0c0805",
+    "Violet_160": "f5f4fe",
+    "Violet_150": "eeedfd",
+    "Violet_140": "dedffc",
+    "Violet_130": "bdc0fa",
+    "Violet_120": "9599f9",
+    "Violet_110": "7f80f9",
+    "Violet_100": "726cf9",
+    "Violet_90": "685afb",
+    "Violet_80": "604ef3",
+    "Violet_70": "594cdd",
+    "Violet_60": "4843a8",
+    "Violet_50": "3a3982",
+    "Violet_40": "2e2e61",
+    "Violet_30": "222342",
+    "Violet_20": "17172b",
+    "Violet_10": "080810",
+    "Purple_160": "fbf2fc",
+    "Purple_150": "f6eaf9",
+    "Purple_140": "eddcf5",
+    "Purple_130": "d8b9ec",
+    "Purple_120": "c08fe0",
+    "Purple_110": "b174d9",
+    "Purple_100": "a660d4",
+    "Purple_90": "9d4fcf",
+    "Purple_80": "9049be",
+    "Purple_70": "8646ae",
+    "Purple_60": "6a3d88",
+    "Purple_50": "55346a",
+    "Purple_40": "412b50",
+    "Purple_30": "2f2139",
+    "Purple_20": "1e1524",
+    "Purple_10": "0b080d",
+    "YellowBright_10": "e59408",
+    "LightTint_80": "e0e1e4cc",
+    "LightTint_70": "e0e1e4b2",
+    "LightTint_30": "e0e1e44d",
+    "LightTint_20": "e0e1e433",
+    "LightTint_15": "e0e1e426",
+    "LightTint_12": "e0e1e41f",
+    "LightTint_10": "e0e1e41a",
+    "LightTint_8": "e0e1e414",
+    "LightTint_5": "e0e1e40d",
+    "DarkTint_60": "18191b99",
+    "DarkTint_30": "18191b4d",
+    "DarkTint_20": "18191b33",
+    "DarkTint_15": "18191b26",
+    "DarkTint_10": "18191b1a",
+    "DarkTint_7": "18191b12",
+    "DarkTint_5": "18191b0d",
+    "DarkTint_3": "18191b08",
+    "BlueTint_40": "0870e466",
+    "BlueTint_30": "0870e44d",
+    "BlueTint_25": "0870e440",
+    "BlueTint_20": "0870e433",
+    "BlueTint_15": "0870e426",
+    "BlueTint_10": "0870e41a",
+    "BlueTint_5": "0870e40d"
   }
 }
